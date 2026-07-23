@@ -11,6 +11,7 @@ from validation import (
     validate_birth_date
 )
 
+
 class ProfileRequestSchema(BaseModel):
     first_name: str
     last_name: str
