@@ -45,7 +45,7 @@ class UserLoginResponseSchema(BaseModel):
 
 
 class UserRegistrationResponseSchema(BaseModel):
-    user_id: int = Field(validation_alias="id")
+    id: int = Field(validation_alias="id")
     email: EmailStr
 
     model_config = {
