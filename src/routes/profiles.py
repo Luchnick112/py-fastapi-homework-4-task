@@ -106,6 +106,7 @@ async def create_user_profile(
 
     return ProfileResponseSchema(
         id=profile.id,
+        user_id=profile.user_id,
         first_name=profile.first_name,
         last_name=profile.last_name,
         avatar=avatar_url,
